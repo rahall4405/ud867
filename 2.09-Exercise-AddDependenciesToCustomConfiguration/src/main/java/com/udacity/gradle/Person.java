@@ -12,4 +12,7 @@ public class Person {
     public String getName() {
         return Strings.emptyToNull(name);
     }
+    public void setName(String name) {
+      this.name = name;
+    }
 }
